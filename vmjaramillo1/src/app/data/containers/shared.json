@@ -1,0 +1,42 @@
+{
+	"progressBar":{
+		"step": "Paso ",
+		"of": "de"
+	},
+	"cancelMessage": {
+	  "show": true,
+	  "one": "En caso de cancelación o actualización de la suscripción, contáctate con nosotros al correo ",
+	  "two": "o llámanos al ",
+	  "three": "."
+	},
+	"footerSeccion": {
+	  "platformLogo": {
+		"alt": "logo de platforma desarrollada"
+	  },
+	  "rightsReserved": [
+		{
+		  "text": "© 2022 "
+		},
+		{
+		  "text": "EVA "
+		},
+		{
+		  "text": "Todos los derechos reservados."
+		}
+	  ],
+	  "platformInfo": [
+		{
+		  "text": "Plataforma desarrollada por: "
+		}
+	  ]
+	},
+	"errorIdentificationFetch": {
+	  "identificationInvalid": "Favor ingresar una cédula válida",
+	  "text": "¡Lo sentimos, no encontramos tus datos! ",
+	  "link": {
+		"url": "https://www.confiamed.com/web/contacto",
+		"text": "Contáctate con nosotros"
+	  }
+	}
+  }
+  
