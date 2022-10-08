@@ -40,7 +40,7 @@ const GlobalHeader = ({
         className?.root
       )}
     >
-      <GlobalContainer className={containterClass}>
+      <GlobalContainer className={containterClass} contentSize="xl">
         <a href={logo.url} className={clsx("my-auto", className?.link)}>
           <img
             src={logo.src}

@@ -2,6 +2,7 @@ import GlobalHeader from "@global/GlobalHeader";
 import logoImage from "app/assets/Header/logo.png";
 
 import AboutSection from "./AboutSection";
+import CiteSection from "./CiteSection";
 import ContactSection from "./ContactSection";
 import EducationSection from "./EducationSection";
 import HeroSection from "./HeroSection";
@@ -21,14 +22,16 @@ const Home = () => {
       <GlobalHeader
         logo={logo}
         fixed
-        className={{ root: "z-20 shadow-none" }}
+        className={{ root: "z-20 shadow-none", img: "h-[36px]" }}
       />
       <HeroSection />
       <AboutSection />
+      <CiteSection />
       <WhatidoSection />
+      <PorfolioSection />
       <SkillsSection />
       <EducationSection />
-      <PorfolioSection />
+      
       <ContactSection />
     </>
   );

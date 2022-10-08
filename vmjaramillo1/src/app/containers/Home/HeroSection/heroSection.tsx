@@ -11,7 +11,7 @@ const heroSectionSection = () => {
       className="relative h-auto w-full bg-neutral-alternative1-900 bg-cover bg-center py-0"
     >
       <Parallax bgImage={background} strength={300}>
-        <GlobalContainer>
+        <GlobalContainer contentSize="xl">
           <GlobalHero />
           <Link smooth spy to="about">
             <span className="mouse transition" id="fly">

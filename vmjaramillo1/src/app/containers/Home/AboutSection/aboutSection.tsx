@@ -31,9 +31,10 @@ const intiialValues: GlobalLenguajeProgressProps = {
 const aboutSection = () => {
   return (
     <section id="about-section" className="bg-neutral-alternative1-900 pb-0">
-      <GlobalContainer>
+      <GlobalContainer contentSize="xl">
         <div className="flex min-h-screen items-center">
           <div className="grid grid-cols-12 ">
+            {/* TITLE SECCTION */}
             <div className="col-span-full text-center">
               <h2
                 className="mb-16 text-white"
@@ -55,7 +56,7 @@ const aboutSection = () => {
               />
             </div>
             <div className="col-span-full">
-              <div className="mx-auto mb-2xl w-6/12 text-center">
+              <div className="mx-auto mb-2xl w-7/12 text-center">
                 <GlobalTypography
                   variant="body1"
                   className="leading-[1.8rem] text-neutral-alternative1-300"

@@ -2,7 +2,16 @@ import React, { ElementType, ReactNode } from "react";
 import clsx from "clsx";
 
 interface GlobalTypographyProps {
-  variant?: "h1" | "h2" | "h3" | "h4" | "h5" | "body1" | "body2" | "caption";
+  variant?:
+    | "h0"
+    | "h1"
+    | "h2"
+    | "h3"
+    | "h4"
+    | "h5"
+    | "body1"
+    | "body2"
+    | "caption";
   component?: ElementType;
   className?: string;
   children: ReactNode;

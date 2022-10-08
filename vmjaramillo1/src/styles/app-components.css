@@ -4,6 +4,10 @@
 @tailwind components;
 
 @layer components {
+    .h0 {
+        font-size: var(--step-6);
+    }
+
     h1, .h1 {
         font-size: var(--step-5);
     }
@@ -24,7 +28,7 @@
         font-size: var(--step-1);
     }
 
-    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    .h0, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
         @apply font-heading;
         @apply font-bold;
     }

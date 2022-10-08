@@ -82,6 +82,7 @@ module.exports = {
             'ElegantIcons':  ["ElegantIcons", "Helvetica", "Arial", "sans-serif"],
         },
         extend: {
+            
             borderRadius:{
                 4: "4px",
                 8: "8px",
@@ -137,5 +138,13 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [
+        function ({ addComponents }) {
+            addComponents({
+              ".custom-grayscale":{
+                filter: "grayscale(100%)",
+              }
+            });
+          },
+    ],
 };

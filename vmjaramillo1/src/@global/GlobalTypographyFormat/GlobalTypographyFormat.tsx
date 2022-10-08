@@ -4,7 +4,16 @@ import clsx from "clsx";
 
 interface GlobalTypographyFormatProps {
   content: Array<ContentProps>;
-  variant?: "h1" | "h2" | "h3" | "h4" | "h5" | "body1" | "body2" | "caption";
+  variant?:
+    | "h0"
+    | "h1"
+    | "h2"
+    | "h3"
+    | "h4"
+    | "h5"
+    | "body1"
+    | "body2"
+    | "caption";
   className?: Partial<ClassNameProps>;
 }
 

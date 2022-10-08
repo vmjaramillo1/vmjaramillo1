@@ -1,8 +1,13 @@
+// When using TypeScript 4.x and above
+import type {} from "@mui/lab/themeAugmentation";
 import { createTheme, ThemeOptions } from "@mui/material/styles";
 // eslint-disable-next-line no-restricted-imports
 import { Shadows } from "@mui/material/styles/shadows";
 import colors from "styles/config-colors";
 import fluidSpacing from "styles/config-fluid-spacing";
+
+// When using TypeScript 3.x and below
+import "@mui/lab/themeAugmentation";
 
 const {
   neutral,
@@ -46,7 +51,7 @@ const themeOptions: ThemeOptions = {
     },
   },
   shape: {
-    borderRadius: "8px",
+    borderRadius: 8,
   },
   shadows: Array(25).fill("none") as Shadows,
   components: {
