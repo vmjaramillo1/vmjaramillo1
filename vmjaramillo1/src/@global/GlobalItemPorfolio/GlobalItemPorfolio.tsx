@@ -45,6 +45,7 @@ const GlobalItemPorfolio = (props: GlobalItemPorfolioProps) => {
       />
     </div>
   );
+  
 };
 
 export default GlobalItemPorfolio;
