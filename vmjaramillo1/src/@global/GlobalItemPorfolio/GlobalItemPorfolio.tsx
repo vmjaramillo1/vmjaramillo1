@@ -9,13 +9,13 @@ const GlobalItemPorfolio = (props: GlobalItemPorfolioProps) => {
   return (
     <div
       className={clsx(
-        "relative overflow-hidden outline-none duration-500 hover:shadow-md",
+        "group custom-grayscale relative overflow-hidden outline-none duration-500 hover:custom-grayscale-reset hover:shadow-md",
         className?.root
       )}
     >
       <div
         className={clsx(
-          "absolute z-10 flex h-full w-full scale-110  items-center justify-center  "
+          " absolute z-10 flex h-full w-full items-center justify-center opacity-0 duration-500  hover:scale-100 hover:opacity-100"
         )}
       >
         <GlobalTypography
@@ -38,7 +38,10 @@ const GlobalItemPorfolio = (props: GlobalItemPorfolioProps) => {
       <img
         alt={img.alt}
         src={img.src}
-        className={clsx("custom-grayscale scale-110 rounded-4", className?.img)}
+        className={clsx(
+          "scale-110 rounded-4 duration-500 group-hover:scale-100",
+          className?.img
+        )}
       />
     </div>
   );

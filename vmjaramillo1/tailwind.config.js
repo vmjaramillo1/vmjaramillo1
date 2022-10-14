@@ -143,6 +143,9 @@ module.exports = {
             addComponents({
               ".custom-grayscale":{
                 filter: "grayscale(100%)",
+              },
+              ".custom-grayscale-reset":{
+                filter: "grayscale(0)",
               }
             });
           },
