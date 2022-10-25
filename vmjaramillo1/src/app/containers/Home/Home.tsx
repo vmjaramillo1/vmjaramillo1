@@ -29,8 +29,8 @@ const Home = () => {
       <CiteSection />
       <WhatidoSection />
       <PorfolioSection />
-      <SkillsSection />
       <EducationSection />
+      <SkillsSection />
       
       <ContactSection />
     </>
