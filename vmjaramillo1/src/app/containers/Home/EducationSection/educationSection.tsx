@@ -5,6 +5,30 @@ import AOS from "aos";
 
 AOS.init();
 
+const educationItems = [
+  {
+    index: 1,
+    dateTitle: "2022 - now",
+    title: "Senior UI / UX Designer",
+    subtitle: "Google Inc",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.",
+  },
+  {
+    index: 2,
+    dateTitle: "2010 - 2014  ",
+    title: "Founder & Creative Director",
+    subtitle: "Kyros Studio",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.",
+  },
+  {
+    index: 3,
+    dateTitle: "2008 - 2010",
+    title: "Graphic Designer",
+    subtitle: "Kyros Studio",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.",
+  },
+];
+
 const educationSection = () => {
   return (
     <section
@@ -44,7 +68,15 @@ const educationSection = () => {
                 Experiences
               </GlobalTypography>
 
-              <GlobalEducationItem />
+              {educationItems.map((item) => (
+                <GlobalEducationItem
+                  index={item.index}
+                  dateTitle={item.dateTitle}
+                  title={item.title}
+                  subtitle={item.subtitle}
+                  body={item.body}
+                />
+              ))}
             </div>
             <div className="col-span-6">
               <GlobalTypography
@@ -53,6 +85,15 @@ const educationSection = () => {
               >
                 Education
               </GlobalTypography>
+              {educationItems.map((item) => (
+                <GlobalEducationItem
+                  index={item.index}
+                  dateTitle={item.dateTitle}
+                  title={item.title}
+                  subtitle={item.subtitle}
+                  body={item.body}
+                />
+              ))}
             </div>
           </div>
         </div>

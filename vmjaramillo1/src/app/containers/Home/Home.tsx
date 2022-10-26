@@ -30,8 +30,6 @@ const Home = () => {
       <WhatidoSection />
       <PorfolioSection />
       <EducationSection />
-      <SkillsSection />
-      
       <ContactSection />
     </>
   );
