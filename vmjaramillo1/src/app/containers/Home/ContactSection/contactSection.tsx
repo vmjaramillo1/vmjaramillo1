@@ -3,6 +3,7 @@ import { Controller, useForm } from "react-hook-form";
 import { Parallax } from "react-parallax";
 import GlobalContainer from "@global/GlobalContainer";
 import { yupResolver } from "@hookform/resolvers/yup";
+import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import AOS from "aos";
 import background from "app/assets/whatIDo/2.jpg";
@@ -11,24 +12,41 @@ import * as yup from "yup";
 AOS.init();
 
 const defaultValues = {
-  name: null,
+  name: "",
   email: "",
   phone: "",
-  messageContac: "",
+  message: "",
 };
 
 const yupScheme = yup.object().shape({
-  identification: yup
+  name: yup
     .string()
-    // .required(form.identification.rules.required)
-    // .matches(/^\d+$/, form.identification.rules.invalid)
-    // .test("digitCheck", form.identification.rules.invalid, (value) =>
-    //   validCardId(value)
-    // )
+    .required("El nombre es obligatorio")
+    .min(3, "El nombre debe contener por lo menos 3 caracteres")
+    .max(70, "El nombre no debe contener más de 70 caracteres")
     .nullable(),
-  termsAndConditions: yup.boolean(),
-  // .required(form.termsAndConditions.rules.required)
-  // .oneOf([true], form.termsAndConditions.rules.required),
+  email: yup
+    .string()
+    .nullable()
+    .email("El formato del email es incorrecto")
+    .matches(
+      /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/,
+      "El formato del email es incorrecto"
+    )
+    .max(100, "El email no debe contener más de 100 caracteres")
+    .required("El email es obligatorio"),
+  phone: yup
+    .string()
+    .nullable()
+    .required("El telefono es obligatorio")
+    .min(7, "El telefono debe contener por lo menos 7 caracteres")
+    .max(15, "El telefono no debe contener más de 15 caracteres"),
+  message: yup
+    .string()
+    .nullable()
+    .required("El mensaje es obligatorio")
+    .min(10, "El mensaje debe contener por lo menos 10 caracteres")
+    .max(700, "El mensaje no debe contener más de 700 caracteres"),
 });
 
 const contactSection = () => {
@@ -36,6 +54,10 @@ const contactSection = () => {
     defaultValues,
     resolver: yupResolver(yupScheme),
   });
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
 
   return (
     <section
@@ -85,13 +107,9 @@ const contactSection = () => {
                             {...field}
                             className="w-full"
                             value={value}
-                            label="name"
-                            // inputRef={ref}
-                            // className={{
-                            //   label: "",
-                            //   root: "rounded-4 bg-primary-50",
-                            // }}
-                            placeholder="validationInfo.names.placeHolder"
+                            // label="name"
+                            inputProps={{ className: "!text-white " }}
+                            placeholder="Names"
                             autoComplete="off"
                             error={!!error}
                             helperText={error ? error.message : null}
@@ -111,13 +129,8 @@ const contactSection = () => {
                             {...field}
                             className="w-full"
                             value={value}
-                            label="email"
-                            // inputRef={ref}
-                            // className={{
-                            //   label: "",
-                            //   root: "rounded-4 bg-primary-50",
-                            // }}
-                            placeholder="validationInfo.names.placeHolder"
+                            inputProps={{ className: "!text-white " }}
+                            placeholder="email"
                             autoComplete="off"
                             error={!!error}
                             helperText={error ? error.message : null}
@@ -137,13 +150,8 @@ const contactSection = () => {
                             {...field}
                             value={value}
                             className="w-full"
-                            label="phone"
-                            // inputRef={ref}
-                            // className={{
-                            //   label: "",
-                            //   root: "rounded-4 bg-primary-50",
-                            // }}
-                            placeholder="validationInfo.names.placeHolder"
+                            inputProps={{ className: "!text-white " }}
+                            placeholder="phone"
                             autoComplete="off"
                             error={!!error}
                             helperText={error ? error.message : null}
@@ -153,7 +161,7 @@ const contactSection = () => {
                     </div>
                     <div className="col-span-12 mb-m">
                       <Controller
-                        name="messageContac"
+                        name="message"
                         control={control}
                         render={({
                           field: { ref, value, ...field },
@@ -163,15 +171,10 @@ const contactSection = () => {
                             {...field}
                             value={value}
                             className="w-full"
-                            label="messageContac"
                             multiline
                             rows={7}
-                            // inputRef={ref}
-                            // className={{
-                            //   label: "",
-                            //   root: "rounded-4 bg-primary-50",
-                            // }}
-                            placeholder="validationInfo.names.placeHolder"
+                            inputProps={{ className: "!text-white " }}
+                            placeholder="message"
                             autoComplete="off"
                             error={!!error}
                             helperText={error ? error.message : null}
@@ -180,6 +183,13 @@ const contactSection = () => {
                       />
                     </div>
                   </form>
+                  <Button
+                    variant="contained"
+                    className="w-2/12 font-semibold text-white"
+                    onClick={handleSubmit(onSubmit)}
+                  >
+                    Contained
+                  </Button>
                 </div>
               </div>
             </div>

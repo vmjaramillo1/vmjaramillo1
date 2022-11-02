@@ -57,8 +57,8 @@ const WhatidoSection = () => {
               />
             </div>
             <div className="col-span-full flex text-center md:px-11xl">
-              {abilityInfo.map((item) => {
-                return <GlobalAbilityItem {...item} />;
+              {abilityInfo.map((item, index) => {
+                return <GlobalAbilityItem key={index} {...item} />;
               })}
             </div>
           </div>

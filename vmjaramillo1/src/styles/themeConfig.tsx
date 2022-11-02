@@ -69,10 +69,10 @@ const themeOptions: ThemeOptions = {
           backgroundColor: primary[500],
           color: primary.alternative1[500],
           ":hover": {
-            backgroundColor: primary[700],
+            backgroundColor: "#fd5656",
           },
           ":active": {
-            backgroundColor: primary[900],
+            backgroundColor: "#ff0000",
           },
           "&.Mui-disabled": {
             backgroundColor: `${primary[200]} !important`,
@@ -325,11 +325,12 @@ const themeOptions: ThemeOptions = {
               borderColor: colors.neutral[400],
             },
             "&:hover fieldset": {
-              borderColor: colors.neutral[500],
+              borderColor: colors.neutral[400],
             },
             "&.Mui-focused fieldset": {
               border: "1px solid",
-              borderColor: colors.neutral[900],
+              borderColor: colors.neutral[400],
+              backgroundColor: "#cf1f1f1a",
             },
             "&.Mui-error": {
               "&.Mui-focused fieldset": {

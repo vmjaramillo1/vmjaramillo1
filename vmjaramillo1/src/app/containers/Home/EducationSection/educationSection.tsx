@@ -68,8 +68,9 @@ const educationSection = () => {
                 Experiences
               </GlobalTypography>
 
-              {educationItems.map((item) => (
+              {educationItems.map((item, index) => (
                 <GlobalEducationItem
+                  key={index}
                   index={item.index}
                   dateTitle={item.dateTitle}
                   title={item.title}
@@ -85,8 +86,9 @@ const educationSection = () => {
               >
                 Education
               </GlobalTypography>
-              {educationItems.map((item) => (
+              {educationItems.map((item, index) => (
                 <GlobalEducationItem
+                  key={index}
                   index={item.index}
                   dateTitle={item.dateTitle}
                   title={item.title}
