@@ -1,7 +1,7 @@
-// import GlobalTypography from "@global/GlobalTypography";
 import { Controller, useForm } from "react-hook-form";
 import { Parallax } from "react-parallax";
 import GlobalContainer from "@global/GlobalContainer";
+import GlobalTypography from "@global/GlobalTypography";
 import { yupResolver } from "@hookform/resolvers/yup";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
@@ -78,7 +78,7 @@ const contactSection = () => {
                   data-aos-easing="ease"
                   data-aos-once="true"
                 >
-                  About Me
+                  Contact Me
                 </h2>
                 <div
                   className="relative mx-auto mb-40 h-[1px] w-32 bg-primary-500 before:absolute before:left-[-40px] before:h-[1px] before:w-32 before:bg-neutral-alternative1-400 after:absolute after:right-[-40px] after:h-[1px] after:w-32 after:bg-neutral-alternative1-400"
@@ -190,6 +190,27 @@ const contactSection = () => {
                   >
                     Contained
                   </Button>
+                  <div className="mx-auto mt-l text-neutral-alternative1-300 md:flex md:w-4/6 md:justify-between">
+                    <GlobalTypography variant="body1">
+                      <span className="block pb-8 font-semibold text-white">
+                        Email Me
+                      </span>
+                      contact@kyrosnoriaki.com
+                    </GlobalTypography>
+                    <GlobalTypography variant="body1">
+                      <span className="block pb-8 font-semibold text-white">
+                        Call Me
+                      </span>
+                      +1 700 333 92 96
+                    </GlobalTypography>
+                    <GlobalTypography variant="body1">
+                      <span className="block pb-8 font-semibold text-white">
+                        Address
+                      </span>
+                      Collins Street West,
+                      <br /> Louisiana, Bayerfurt, USA
+                    </GlobalTypography>
+                  </div>
                 </div>
               </div>
             </div>

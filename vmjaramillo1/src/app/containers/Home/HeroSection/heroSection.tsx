@@ -8,7 +8,7 @@ const heroSectionSection = () => {
   return (
     <section
       id="hero-section"
-      className="relative h-auto w-full bg-neutral-alternative1-900 bg-cover bg-center py-0"
+      className="relative h-auto w-full bg-neutral-alternative1-900 before:from-[#171a1d00] bg-cover bg-center py-0 before:bg-gradient-to-t"
     >
       <Parallax bgImage={background} strength={300}>
         <GlobalContainer contentSize="xl">
