@@ -7,6 +7,7 @@ interface GlobalHeaderProps {
   fixed?: boolean;
   className?: Partial<ClassNameProps>;
   children?: any;
+  id?: string;
 }
 
 interface ClassNameProps {
@@ -27,6 +28,7 @@ const GlobalHeader = ({
   fixed,
   className,
   children,
+  id
 }: GlobalHeaderProps) => {
   const containterClass = {
     content: "justify-between py-s flex px-s-5xl",
@@ -34,6 +36,7 @@ const GlobalHeader = ({
 
   return (
     <header
+      id={id || ""}
       className={clsx(
         "max-h-[82px] shadow-2md",
         fixed && "fixed top-0 z-10 w-full",

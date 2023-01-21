@@ -13,7 +13,7 @@ const GlobalLenguajeProgress = ({
   return (
     <div className={clsx("flex justify-center", className?.root)}>
       {valueList.map(({ value, text }, index) => (
-        <div key={index} className="mx-2xl text-center">
+        <div key={index} className="mx-xl text-center">
           <GlobalSpinner
             value={value}
             thickness={individualSpiner.thickness}

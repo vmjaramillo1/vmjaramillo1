@@ -36,7 +36,7 @@ const GlobalHero = () => {
           data-aos-easing="ease"
           data-aos-once="true"
         >
-          <GlobalTypography variant="h0">
+          <GlobalTypography className="h0">
             <Typed
               strings={["FREELANCER ", "PROGAMMER", "PHOTOGRAPHER"]}
               typeSpeed={60}

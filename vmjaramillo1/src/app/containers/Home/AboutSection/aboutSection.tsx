@@ -15,7 +15,7 @@ const intiialValues: GlobalLenguajeProgressProps = {
     { value: 90, text: "Test" },
   ],
   individualSpiner: {
-    thickness: 1,
+    thickness: 1.5,
     size: 200,
   },
   className: {

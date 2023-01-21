@@ -46,14 +46,14 @@ const GlobalFooter = ({
             content={platformInfo}
             className={{ root: clsx("font-medium", className?.platformInfo) }}
           />
-          <img
+          {/* <img
             src={platformLogo.src}
             className={clsx(
               "my-auto ml-[4px] h-[11.69] w-[41px]",
               className?.img
             )}
             alt={platformLogo.alt}
-          />
+          /> */}
         </div>
       </GlobalContainer>
     </footer>

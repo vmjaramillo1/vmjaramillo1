@@ -10,11 +10,14 @@ const CiteSection = () => {
   return (
     <section
       id="what-it-section"
-      className="h-auto w-full bg-neutral-alternative1-900 bg-cover bg-center py-0"
+      className="relative h-auto w-full bg-neutral-alternative1-900 from-neutral-alternative1-900 from-neutral-alternative1-900 to-transparent to-transparent bg-cover bg-center
+      py-0 before:absolute before:bottom-0 before:left-0 before:z-10 before:h-1/2
+      before:w-full before:bg-gradient-to-t after:absolute
+      after:top-0 after:left-0 after:z-10 after:h-1/2 after:w-full after:bg-gradient-to-b"
     >
-      <Parallax bgImage={background} strength={300}>
-        <GlobalContainer contentSize="xl">
-          <div className="flex min-h-screen items-center">
+      <Parallax className="pb-9xl" bgImage={background} strength={300}>
+        <GlobalContainer className={{ root: "py-m" }} contentSize="xl">
+          <div className="flex items-center pt-5xl pb-5xl">
             <blockquote className="mx-auto w-10/12 text-white">
               <i className="font-ElegantIcons text-[150px] not-italic text-primary-500 before:content-['{']" />
               <GlobalTypography
