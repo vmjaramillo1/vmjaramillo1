@@ -32,10 +32,10 @@ const aboutSection = () => {
   return (
     <section id="about-section" className="bg-neutral-alternative1-900 pb-0">
       <GlobalContainer contentSize="xl">
-        <div className="flex min-h-screen items-center">
+        <div className="flex min-h-screen items-center pt-4xl md:pt-0">
           <div className="grid grid-cols-12 ">
             {/* TITLE SECCTION */}
-            <div className="col-span-full text-center">
+            <div className="col-span-full text-center" data-aos="fade-up">
               <h2
                 className="mb-16 text-white"
                 data-aos="fade-up"
@@ -56,7 +56,14 @@ const aboutSection = () => {
               />
             </div>
             <div className="col-span-full">
-              <div className="mx-auto mb-2xl w-7/12 text-center">
+              <div
+                className="mx-auto mb-2xl w-10/12 text-center md:w-7/12"
+                data-aos="fade-up"
+                data-aos-delay="20"
+                data-aos-duration="1000"
+                data-aos-easing="ease"
+                data-aos-once="true"
+              >
                 <GlobalTypography
                   variant="body1"
                   className="leading-[1.8rem] text-neutral-alternative1-300"
@@ -70,9 +77,7 @@ const aboutSection = () => {
               </div>
             </div>
             <div className="col-span-full">
-              <div>
-                <GlobalLenguajeProgress {...intiialValues} />
-              </div>
+              <GlobalLenguajeProgress {...intiialValues} />
             </div>
           </div>
         </div>

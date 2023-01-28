@@ -34,8 +34,8 @@ const porfolio = () => {
   return (
     <section id="porfolio-section" className="bg-neutral-alternative1-900 pb-0">
       <GlobalContainer contentSize="xxl">
-        <div className="min-h-screen items-center">
-          <div className="grid grid-cols-12 ">
+        <div className="min-h-screen items-center pt-[55px]">
+          <div className="grid grid-cols-12 pt-[55px]">
             {/* TITLE SECCTION */}
             <div className="col-span-full text-center">
               <h2
@@ -58,10 +58,14 @@ const porfolio = () => {
               />
             </div>
             <div className="col-span-full">
-              <div className="mx-auto mb-2xl w-9/12 text-center">
-                <Masonry columns={3} spacing={2}>
+              <div className="mx-auto mb-2xl w-11/12 text-center md:w-9/12">
+                <Masonry
+                  columns={{ sx: 1, md: 3 }}
+                  spacing={2}
+                  className="mx-0"
+                >
                   {itemData.map((item, index) => (
-                    <div key={index}>
+                    <div key={index} data-aos="fade-up" data-aos-once="true">
                       <GlobalItemPorfolio
                         title="test"
                         body="body"

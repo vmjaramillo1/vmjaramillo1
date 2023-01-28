@@ -15,17 +15,20 @@ const GlobalHero = () => {
   return (
     <div className="flex min-h-screen items-center">
       <div className="block">
-        <GlobalTypography
-          variant="body1"
-          className="font-semibold text-primary-500"
+        <div
           data-aos="fade-up"
           data-aos-delay="0"
           data-aos-duration="1000"
           data-aos-easing="ease"
           data-aos-once="true"
         >
-          I Am Kyros Noriaki
-        </GlobalTypography>
+          <GlobalTypography
+            variant="body1"
+            className="font-semibold text-primary-500"
+          >
+            I Am Kyros Noriaki
+          </GlobalTypography>
+        </div>
 
         <div className="clear-both block h-24 w-full" />
         <div

@@ -11,9 +11,17 @@ const GlobalLenguajeProgress = ({
   individualSpiner,
 }: GlobalLenguajeProgressProps) => {
   return (
-    <div className={clsx("flex justify-center", className?.root)}>
+    <div className={clsx("block justify-center md:flex", className?.root)}>
       {valueList.map(({ value, text }, index) => (
-        <div key={index} className="mx-xl text-center">
+        <div
+          key={index}
+          className="mb-2xl text-center md:my-0 md:mx-xl"
+          data-aos="fade"
+          data-aos-delay={(index + 3) * 100}
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+          data-aos-once="true"
+        >
           <GlobalSpinner
             value={value}
             thickness={individualSpiner.thickness}

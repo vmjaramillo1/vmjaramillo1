@@ -1,6 +1,7 @@
 import { useRoutes } from "react-router-dom";
 import withAppProviders from "app/withAppProviders";
 
+import "styles/aos.css";
 import AppRoutes from "./routes";
 
 function App() {
@@ -8,3 +9,4 @@ function App() {
 }
 
 export default withAppProviders(App)();
+

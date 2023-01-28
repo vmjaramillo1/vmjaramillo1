@@ -1,4 +1,42 @@
 {
+
+  "menu":{
+    "transition": 600,
+    "menuItems":[
+      {
+        "id":"1",
+        "name": "Home",
+        "linkTo": "hero-section"
+      },
+      {
+        "id":"2",
+        "name": "About me",
+        "linkTo": "about-section"
+      },
+      {
+        "id":"3",
+        "name": "What I Do",
+        "linkTo": "what-it-section"
+      },
+      {
+        "id":"4",
+        "name": "Portofolio",
+        "linkTo": "porfolio-section"
+      },
+      {
+        "id":"5",
+        "name": "My resume",
+        "linkTo": "education-section"
+      },
+      {
+        "id":"6",
+        "name": "Contact Me",
+        "linkTo": "contact-section"
+      }
+    ]
+  },
+
+  
   "heroSection": {
     "productName": "Salud Integral Total",
     "background": "/public/images/hero/imageBackgroundHero2.webp",

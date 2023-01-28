@@ -8,18 +8,21 @@ AOS.init();
 const WhatidoSection = () => {
   const abilityInfo = [
     {
+      id: 1,
       icon: <EngineeringIcon className="h-xl w-xl pr-m text-primary-500" />,
       title: "Branding",
       description:
         "Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure",
     },
     {
+      id: 2,
       icon: <EngineeringIcon className="h-xl w-xl pr-m text-primary-500" />,
       title: "Branding",
       description:
         "Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure",
     },
     {
+      id: 3,
       icon: <EngineeringIcon className="h-xl w-xl pr-m text-primary-500" />,
       title: "Branding",
       description:
@@ -33,7 +36,7 @@ const WhatidoSection = () => {
       className="h-auto w-full bg-neutral-alternative1-900 bg-cover bg-center py-0"
     >
       <GlobalContainer contentSize="xxl">
-        <div className="flex min-h-screen items-center">
+        <div className="flex min-h-screen items-center pt-4xl md:pt-0">
           <div className="grid grid-cols-12 ">
             {/* TITLE SECCTION */}
             <div className="col-span-full mb-l text-center">
@@ -56,7 +59,7 @@ const WhatidoSection = () => {
                 data-aos-once="true"
               />
             </div>
-            <div className="col-span-full flex text-center md:px-11xl">
+            <div className="col-span-full text-center md:flex md:px-11xl">
               {abilityInfo.map((item, index) => {
                 return <GlobalAbilityItem key={index} {...item} />;
               })}

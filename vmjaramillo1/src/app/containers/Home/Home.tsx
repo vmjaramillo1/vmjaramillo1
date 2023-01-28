@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import GlobalFooter from "@global/GlobalFooter";
 import GlobalHeader from "@global/GlobalHeader";
-import Link from "@mui/material/Link";
 import logoImage from "app/assets/Header/logo.png";
+import MenuDesk from "app/components/MenuDesk";
+import MenuMobile from "app/components/MenuMobile";
 import sharedIndo from "app/data/containers/shared.json";
 
 import AboutSection from "./AboutSection";
@@ -18,53 +19,6 @@ const logo = {
   src: logoImage,
   alt: "Logo de pagin",
 };
-
-const menu = (
-  <>
-    <Link
-      href="http://localhost:3006/vmjaramillo1"
-      variant="body2"
-      className="body2 font-semibold text-white "
-    >
-      Home
-    </Link>
-    <Link
-      href="#about-section"
-      variant="body2"
-      className="body2 font-semibold text-white"
-    >
-      About me
-    </Link>
-    <Link
-      href="http://localhost:3006/vmjaramillo1"
-      variant="body2"
-      className="body2 font-semibold text-white"
-    >
-      What I Do
-    </Link>
-    <Link
-      href="http://localhost:3006/vmjaramillo1"
-      variant="body2"
-      className="body2 font-semibold text-white"
-    >
-      Portofolio
-    </Link>
-    <Link
-      href="http://localhost:3006/vmjaramillo1"
-      variant="body2"
-      className="body2 font-semibold text-white"
-    >
-      My resume
-    </Link>
-    <Link
-      href="http://localhost:3006/vmjaramillo1"
-      variant="body2"
-      className="body2 font-semibold text-white"
-    >
-      Contact Me
-    </Link>
-  </>
-);
 
 const Home = () => {
   const [isScroll, setIsScroll] = useState(false);
@@ -88,13 +42,21 @@ const Home = () => {
     };
   }, []);
 
+  const menu = (
+    <>
+      <MenuDesk className="hidden md:block" />
+      <MenuMobile className="block md:hidden" />
+    </>
+  );
   return (
     <>
       <GlobalHeader
         logo={logo}
         fixed
         className={{
-          root: `z-20 shadow-none ${isScroll ? "bg-neutral-600" : ""} `,
+          root: `z-20 shadow-none ${
+            isScroll ? "bg-neutral-alternative1-900" : ""
+          } `,
           img: "h-[36px]",
         }}
         id="test"
@@ -111,9 +73,9 @@ const Home = () => {
       <GlobalFooter
         {...sharedIndo.footerSeccion}
         className={{
-          root: "border-t border-t-neutral-alternative1-600 bg-neutral-alternative1-900",
-          rightsReserved: "text-neutral-400",
-          platformInfo: "text-neutral-400",
+          root: "border-t border-t-neutral-alternative1-600 bg-neutral-alternative1-900 py-s",
+          rightsReserved: "!body1 text-neutral-400",
+          platformInfo: "!body1 text-neutral-400",
         }}
       />
     </>

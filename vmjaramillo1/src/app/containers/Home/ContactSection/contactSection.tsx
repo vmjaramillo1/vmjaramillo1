@@ -69,10 +69,10 @@ const contactSection = () => {
     >
       <Parallax bgImage={background} strength={300}>
         <GlobalContainer contentSize="xl">
-          <div className="flex min-h-screen items-center">
+          <div className="mt-2xl flex min-h-screen items-center pt-2xl md:mt-0 md:pt-0">
             <div className="grid w-full grid-cols-12">
               {/* TITLE SECCTION */}
-              <div className="col-span-full text-center">
+              <div className="col-span-full pt-2xl text-center">
                 <h2
                   className="mb-16 text-white"
                   data-aos="fade-up"
@@ -93,12 +93,19 @@ const contactSection = () => {
                 />
               </div>
               <div className="col-span-full">
-                <div className="mx-auto mb-2xl text-center">
+                <div
+                  className="mx-auto mb-2xl text-center"
+                  data-aos="fade-up"
+                  data-aos-once="true"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                >
                   <form
                     id="contact_form"
-                    className="grid grid-cols-12 gap-m md:mx-7xl"
+                    className="grid grid-cols-12 gap-m gap-y-0 md:pt-m md:mx-7xl"
                   >
-                    <div className="col-span-4 mb-m">
+                    <div className="col-span-12 mx-s md:col-span-4 md:mx-0 md:mb-s">
                       <Controller
                         name="name"
                         control={control}
@@ -120,7 +127,7 @@ const contactSection = () => {
                         )}
                       />
                     </div>
-                    <div className="col-span-4 mb-m">
+                    <div className="col-span-12 mx-s md:col-span-4 md:mx-0 md:mb-s">
                       <Controller
                         name="email"
                         control={control}
@@ -141,7 +148,7 @@ const contactSection = () => {
                         )}
                       />
                     </div>
-                    <div className="col-span-4 mb-m">
+                    <div className="col-span-12 mx-s md:col-span-4 md:mx-0 md:mb-s">
                       <Controller
                         name="phone"
                         control={control}
@@ -162,7 +169,7 @@ const contactSection = () => {
                         )}
                       />
                     </div>
-                    <div className="col-span-12 mb-m">
+                    <div className="col-span-12 mx-s mb-m md:col-span-12 md:mx-0">
                       <Controller
                         name="message"
                         control={control}
@@ -188,31 +195,64 @@ const contactSection = () => {
                   </form>
                   <Button
                     variant="contained"
-                    className="w-2/12 font-semibold text-white"
+                    className=" font-semibold text-white md:w-2/12 md:mt-m"
                     onClick={handleSubmit(onSubmit)}
                   >
                     Contained
                   </Button>
-                  <div className="mx-auto mt-l text-neutral-alternative1-300 md:flex md:w-4/6 md:justify-between">
-                    <GlobalTypography variant="body1">
-                      <span className="block pb-8 font-semibold text-white">
-                        Email Me
-                      </span>
-                      contact@kyrosnoriaki.com
-                    </GlobalTypography>
-                    <GlobalTypography variant="body1">
-                      <span className="block pb-8 font-semibold text-white">
-                        Call Me
-                      </span>
-                      +1 700 333 92 96
-                    </GlobalTypography>
-                    <GlobalTypography variant="body1">
-                      <span className="block pb-8 font-semibold text-white">
-                        Address
-                      </span>
-                      Collins Street West,
-                      <br /> Louisiana, Bayerfurt, USA
-                    </GlobalTypography>
+                  <div className="mx-auto mt-l py-m text-neutral-alternative1-300 md:flex md:w-4/6 md:justify-between">
+                    <div
+                      data-aos="fade-up"
+                      data-aos-once="true"
+                      data-aos-delay="300"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease"
+                    >
+                      <GlobalTypography
+                        variant="body1"
+                        className="mb-l md:mb-0"
+                      >
+                        <span className="block pb-8 font-semibold text-white">
+                          Email Me
+                        </span>
+                        contact@kyrosnoriaki.com
+                      </GlobalTypography>
+                    </div>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-once="true"
+                      data-aos-delay="400"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease"
+                    >
+                      <GlobalTypography
+                        variant="body1"
+                        className="mb-l md:mb-0"
+                      >
+                        <span className="block pb-8 font-semibold text-white">
+                          Call Me
+                        </span>
+                        +1 700 333 92 96
+                      </GlobalTypography>
+                    </div>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-once="true"
+                      data-aos-delay="500"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease"
+                    >
+                      <GlobalTypography
+                        variant="body1"
+                        className="mb-l md:mb-0"
+                      >
+                        <span className="block pb-8 font-semibold text-white">
+                          Address
+                        </span>
+                        Collins Street West,
+                        <br /> Louisiana, Bayerfurt, USA
+                      </GlobalTypography>
+                    </div>
                   </div>
                 </div>
               </div>

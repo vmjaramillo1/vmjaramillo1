@@ -26,7 +26,7 @@ const GlobalEducationItem = (props) => {
           </GlobalTypography>
         </div>
       </div>
-      <div className="ml-s border-l py-m px-l">
+      <div className="ml-[18px] border-l py-m px-l">
         <GlobalTypography variant="h5" className="mb-xs text-white">
           {title}
         </GlobalTypography>

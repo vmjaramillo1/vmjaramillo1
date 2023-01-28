@@ -36,8 +36,8 @@ const educationSection = () => {
       className="bg-neutral-alternative1-900 pb-0"
     >
       <GlobalContainer contentSize="xl">
-        <div className="flex min-h-screen items-center">
-          <div className="grid grid-cols-12 gap-x-m-l">
+        <div className="flex min-h-screen items-center pt-[55px]">
+          <div className="grid grid-cols-12 gap-x-m-l pt-[55px]">
             {/* TITLE SECCTION */}
             <div className="col-span-full text-center">
               <h2
@@ -60,10 +60,14 @@ const educationSection = () => {
               />
             </div>
 
-            <div className="col-span-6">
+            <div
+              className="col-span-12 mx-m mb-2xl md:col-span-6 md:mx-0 md:mb-0"
+              data-aos="fade-up"
+              data-aos-once="true"
+            >
               <GlobalTypography
                 variant="h2"
-                className="mb-l leading-[1.8rem] text-neutral-alternative1-300"
+                className=" mb-l leading-[1.8rem] text-neutral-alternative1-300"
               >
                 Experiences
               </GlobalTypography>
@@ -79,7 +83,11 @@ const educationSection = () => {
                 />
               ))}
             </div>
-            <div className="col-span-6">
+            <div
+              className="col-span-12 mx-m mb-xl md:col-span-6 md:mx-0 md:mb-0"
+              data-aos="fade-up"
+              data-aos-once="true"
+            >
               <GlobalTypography
                 variant="h2"
                 className="mb-l leading-[1.8rem] text-neutral-alternative1-300"
