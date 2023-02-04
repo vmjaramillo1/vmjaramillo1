@@ -28,12 +28,13 @@ const CiteSection = () => {
             <blockquote className="mx-auto w-10/12 text-white">
               <i className="font-ElegantIcons text-[150px] not-italic text-primary-500 before:content-['{']" />
               <GlobalTypography className="h2 md:h3 mb-m font-Nunito font-medium">
-                Do more than is required. What is the distance between someone
-                who achieves their goals consistently and those who spend their
-                lives and careers merely following? The extra mile.
+                Podemos hacer la cosas de forma barata, sencilla, a corto plazo
+                y sin tener en cuenta el futuro. O podemos hacer un esfuerzo
+                adicional, hacer el trabajo duro, absorber las críticas y tomar
+                decisiones que generarán un futuro mejor.
               </GlobalTypography>
               <span className="border-l-[1px] border-solid border-neutral-alternative1-400 py-[3px] pl-m">
-                Kyros Noriaki
+                Mike Rounds
               </span>
             </blockquote>
           </div>

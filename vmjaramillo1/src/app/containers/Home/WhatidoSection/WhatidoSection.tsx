@@ -1,6 +1,8 @@
 import GlobalAbilityItem from "@global/GlobalAbilityItem";
 import GlobalContainer from "@global/GlobalContainer";
 import EngineeringIcon from "@mui/icons-material/Engineering";
+import HandymanIcon from "@mui/icons-material/Handyman";
+import PsychologyIcon from "@mui/icons-material/Psychology";
 import AOS from "aos";
 
 AOS.init();
@@ -9,24 +11,24 @@ const WhatidoSection = () => {
   const abilityInfo = [
     {
       id: 1,
-      icon: <EngineeringIcon className="h-xl w-xl pr-m text-primary-500" />,
-      title: "Branding",
+      icon: <PsychologyIcon className="h-xl w-xl pr-m text-primary-500" />,
+      title: "Analisis",
       description:
-        "Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure",
+        "Servicios de análisis de procesos para ayudar a las empresas a mejorar la eficiencia y la efectividad de sus operaciones, evaluando y analizando procesos existentes para identificar áreas de mejora y optimización mediante el uso de nuevas tecnologias.",
     },
     {
       id: 2,
-      icon: <EngineeringIcon className="h-xl w-xl pr-m text-primary-500" />,
-      title: "Branding",
+      icon: <HandymanIcon className="h-xl w-xl pr-m text-primary-500" />,
+      title: "Desarrollo",
       description:
-        "Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure",
+        "Desarrollo de software personalizado para satisfacer las necesidades específicas de cualquier cliente, siempre manetiendo el enfoque en brindar soluciones eficientes y de alta calidad.",
     },
     {
       id: 3,
       icon: <EngineeringIcon className="h-xl w-xl pr-m text-primary-500" />,
-      title: "Branding",
+      title: "Asesoria",
       description:
-        "Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure",
+        "Asesoria en transformación digital empresarial para aprovechar al máximo las nuevas oportunidades tecnologícas, generando importantes ventajas competitivas y adelantarse a cambios dentro del mercado gracias al análisis de datos.",
     },
   ];
 
@@ -36,7 +38,7 @@ const WhatidoSection = () => {
       className="h-auto w-full bg-neutral-alternative1-900 bg-cover bg-center py-0"
     >
       <GlobalContainer contentSize="xxl">
-        <div className="flex min-h-screen items-center pt-4xl md:pt-0">
+        <div className="flex min-h-[90vh] items-center pt-4xl md:pt-0">
           <div className="grid grid-cols-12 ">
             {/* TITLE SECCTION */}
             <div className="col-span-full mb-l text-center">
@@ -48,7 +50,7 @@ const WhatidoSection = () => {
                 data-aos-easing="ease"
                 data-aos-once="true"
               >
-                What I Do
+                Mis Servicios
               </h2>
               <div
                 className="relative mx-auto mb-40 h-[1px] w-32 bg-primary-500 before:absolute before:left-[-40px] before:h-[1px] before:w-32 before:bg-neutral-alternative1-400 after:absolute after:right-[-40px] after:h-[1px] after:w-32 after:bg-neutral-alternative1-400"
@@ -59,7 +61,7 @@ const WhatidoSection = () => {
                 data-aos-once="true"
               />
             </div>
-            <div className="col-span-full text-center md:flex md:px-11xl">
+            <div className="col-span-full text-center md:flex md:px-10xl">
               {abilityInfo.map((item, index) => {
                 return <GlobalAbilityItem key={index} {...item} />;
               })}

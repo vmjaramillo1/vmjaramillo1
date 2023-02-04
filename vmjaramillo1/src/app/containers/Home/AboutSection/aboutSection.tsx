@@ -9,10 +9,10 @@ AOS.init();
 
 const intiialValues: GlobalLenguajeProgressProps = {
   valueList: [
-    { value: 70, text: "Test" },
-    { value: 50, text: "Test" },
-    { value: 80, text: "Test" },
-    { value: 90, text: "Test" },
+    { value: 90, text: "Python" },
+    { value: 85, text: "SQL" },
+    { value: 75, text: ".Net" },
+    { value: 95, text: "Javascript" },
   ],
   individualSpiner: {
     thickness: 1.5,
@@ -44,7 +44,7 @@ const aboutSection = () => {
                 data-aos-easing="ease"
                 data-aos-once="true"
               >
-                About Me
+                Quien Soy
               </h2>
               <div
                 className="relative mx-auto mb-40 h-[1px] w-32 bg-primary-500 before:absolute before:left-[-40px] before:h-[1px] before:w-32 before:bg-neutral-alternative1-400 after:absolute after:right-[-40px] after:h-[1px] after:w-32 after:bg-neutral-alternative1-400"
@@ -57,7 +57,7 @@ const aboutSection = () => {
             </div>
             <div className="col-span-full">
               <div
-                className="mx-auto mb-2xl w-10/12 text-center md:w-7/12"
+                className="mx-auto mb-2xl w-10/12 text-center md:w-9/12"
                 data-aos="fade-up"
                 data-aos-delay="20"
                 data-aos-duration="1000"
@@ -68,11 +68,13 @@ const aboutSection = () => {
                   variant="body1"
                   className="leading-[1.8rem] text-neutral-alternative1-300"
                 >
-                  I am a website designer from Lousiana, with a strong focus in
-                  UI/UX design. I love to get new experiences and always learn
-                  from my surroundings. Ive done more than 285 projects. You can
-                  check it through portfolio section on this website. I looking
-                  forward to any opportunities and challenges.
+                  Soy un Ing. en Sistemas de la ciudad de Loja, fuertemente
+                  enfocado en el diseño y desarrollo de soluciones tecnológicas
+                  disruptivas, que aprovechen al máximo las oportunidades
+                  existentes y las nuevas tecnologías, en especial aquellas
+                  relacionadas con el campo de IA y el análisis de datos. Me
+                  apasionan los nuevos retos y siempre estoy en la búsqueda de
+                  nuevas oportunidades.
                 </GlobalTypography>
               </div>
             </div>

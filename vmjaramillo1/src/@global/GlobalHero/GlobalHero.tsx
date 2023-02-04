@@ -26,7 +26,7 @@ const GlobalHero = () => {
             variant="body1"
             className="font-semibold text-primary-500"
           >
-            I Am Kyros Noriaki
+            Yo soy Victor Jaramillo
           </GlobalTypography>
         </div>
 
@@ -41,7 +41,7 @@ const GlobalHero = () => {
         >
           <GlobalTypography className="h0">
             <Typed
-              strings={["FREELANCER ", "PROGAMMER", "PHOTOGRAPHER"]}
+              strings={["FREELANCER ", "PROGAMMER", "IA ENGINEER"]}
               typeSpeed={60}
               backSpeed={50}
               loop
@@ -59,19 +59,17 @@ const GlobalHero = () => {
         >
           <li className="mr-32 inline-block list-none border-l border-solid border-neutral-400 py-2xs pr-0 pl-[10px]">
             <GlobalTypography variant="body1">
-              <span className="block pb-8 font-semibold text-white">
-                France
-              </span>
-              Bodin, Chauveau
+              <span className="block pb-8 font-semibold text-white">Quito</span>
+              Pichicha, Ecuador
             </GlobalTypography>
           </li>
           <li className="mr-32 inline-block list-none border-l border-solid border-neutral-400 py-2xs pr-0 pl-[10px]">
-            <span className="block pb-8 font-semibold text-white">USA</span>
-            Louisiana, Bayerfurt
+            <span className="block pb-8 font-semibold text-white">Cuenca</span>
+            Azuay, Ecuador
           </li>
           <li className="mr-32 inline-block list-none border-l border-solid border-neutral-400 py-2xs pr-0 pl-[10px]">
-            <span className="block pb-8 font-semibold text-white">German</span>
-            Hamburg, Dortmund
+            <span className="block pb-8 font-semibold text-white">Loja</span>
+            Loja, Ecuador
           </li>
         </ul>
       </div>
