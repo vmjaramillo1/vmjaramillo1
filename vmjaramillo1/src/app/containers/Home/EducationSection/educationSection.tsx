@@ -11,21 +11,21 @@ const experienceItems = [
     dateTitle: "2020 - now",
     title: "Front Developer",
     subtitle: "Business IT",
-    body: "Maestria orientada a la adquisicion deconocimientos teóricos y prácticos que permitan implementar soluciones basadas en inteligencia artificial somo son: agentes inteligentes, procesamiento de lenguaje natural, modelos de machine learning, redes neuronales entre otros.",
+    body: "Participé en el desarrollo de la plataforma EVA, desempeñándome como Frontend Developer. Durante mi trabajo, desarrollé diversos flujos para la comercialización masiva de seguros en colaboración con el equipo de desarrollo del Broker de Seguros NOVA.",
   },
   {
     index: 2,
     dateTitle: "2018 - 2020",
     title: "Analista - Desarrollador",
-    subtitle: "UTPL - Campus Soft",
-    body: "Ingenieria orientada al estudio de sistemas informaticos y computacion, enfoada en la adquisiedon de conocimientos y capacidades técnicas para diseñar e implementar soluciones computacionales que integren métodos de software y tecnologías de vanguardia.",
+    subtitle: "UTPL",
+    body: "En mi rol de Analista Desarrollador en la UTPL, realicé diversas actividades que incluyen análisis de requisitos, diseño de bases de datos, diseño de servicios web, desarrollo de aplicativos, definición y documentación de procesos institucionales, entre otras.",
   },
   {
     index: 3,
     dateTitle: "2016 - 2018",
     title: "Freelancer",
     subtitle: "Querscur Dev",
-    body: "Bachillerato orientado a la adquisiendo de conocimiento las áreas de Matemática, Lengua y Literatura, Ciencias Naturales, Ciencias Sociales, Educación Cultural y Artística, Educación Física, Lengua extrajera y un módulos interdisciplinarios optativos.",
+    body: "Participe en proyectos de diferentes áreas, incluyendo educación, gestión de recursos humanos y marketing. Como trabajador independiente, he realizado diversas tareas que abarcan desde el análisis de requisitos, diseño de arquitectura de soluciones, diseño de BD, desarrollo de aplicaciones web, entre otros.",
   },
 ];
 
@@ -72,7 +72,7 @@ const educationSection = () => {
                 data-aos-easing="ease"
                 data-aos-once="true"
               >
-                My Resume
+                Mi Resumen
               </h2>
               <div
                 className="relative mx-auto mb-40 h-[1px] w-32 bg-primary-500 before:absolute before:left-[-40px] before:h-[1px] before:w-32 before:bg-neutral-alternative1-400 after:absolute after:right-[-40px] after:h-[1px] after:w-32 after:bg-neutral-alternative1-400"
@@ -93,7 +93,7 @@ const educationSection = () => {
                 variant="h2"
                 className=" mb-l leading-[1.8rem] text-white"
               >
-                Experiences
+                Experiencia
               </GlobalTypography>
 
               {experienceItems.map((item, index) => (
@@ -116,7 +116,7 @@ const educationSection = () => {
                 variant="h2"
                 className="mb-l leading-[1.8rem] text-white"
               >
-                Education
+                Educación
               </GlobalTypography>
               {educationItems.map((item, index) => (
                 <GlobalEducationItem

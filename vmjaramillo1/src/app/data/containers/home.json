@@ -5,32 +5,32 @@
     "menuItems":[
       {
         "id":"1",
-        "name": "Home",
+        "name": "Inicio",
         "linkTo": "hero-section"
       },
       {
         "id":"2",
-        "name": "About me",
+        "name": "Quien Soy",
         "linkTo": "about-section"
       },
       {
         "id":"3",
-        "name": "What I Do",
+        "name": "Mis Servicios",
         "linkTo": "what-it-section"
       },
       {
         "id":"4",
-        "name": "Portofolio",
+        "name": "Portafolio",
         "linkTo": "porfolio-section"
       },
       {
         "id":"5",
-        "name": "My resume",
+        "name": "Mi Resumen",
         "linkTo": "education-section"
       },
       {
         "id":"6",
-        "name": "Contact Me",
+        "name": "Contáctame",
         "linkTo": "contact-section"
       }
     ]

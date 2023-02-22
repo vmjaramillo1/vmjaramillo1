@@ -11,7 +11,7 @@ const MenuDesk = (props) => {
           <Link
             key={id}
             activeClass="!text-primary-500"
-            className="body2 mx-xs font-semibold text-white"
+            className="body2 mx-xs cursor-pointer font-semibold text-white"
             to={linkTo}
             spy
             smooth

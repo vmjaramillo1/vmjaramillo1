@@ -46,7 +46,7 @@ const porfolio = () => {
                 data-aos-easing="ease"
                 data-aos-once="true"
               >
-                Porfolio
+                Portafolio
               </h2>
               <div
                 className="relative mx-auto mb-40 h-[1px] w-32 bg-primary-500 before:absolute before:left-[-40px] before:h-[1px] before:w-32 before:bg-neutral-alternative1-400 after:absolute after:right-[-40px] after:h-[1px] after:w-32 after:bg-neutral-alternative1-400"
