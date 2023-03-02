@@ -2,9 +2,12 @@
 ------> INFO
 -----------------------------------------------------------------------------------------------------------------------
 
-Template Name: Miller
-Design/Development: templatefoundation.com
+Template Name: vmjaramillo1.github.io
+Design/Development: victor Jaramillo
+URL de Diagrama: https://app.diagrams.net/#G1u60auVKgssUpE1OQNbcSlQcvRc65aXf_
 License: Free for personal and commercial use under the Creative Commons Attribution 4.0 license
+
+
 
 
 -----------------------------------------------------------------------------------------------------------------------
