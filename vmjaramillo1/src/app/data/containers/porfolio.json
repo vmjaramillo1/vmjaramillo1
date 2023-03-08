@@ -1,0 +1,104 @@
+{
+  "itemList": [
+    {
+      "img_portada": "/img/porfolio/portada/reportes_utpl.png",
+      "imgModal": "/img/porfolio/modal/reportes_utpl.jpg",
+      "title": "DirCom Report",
+      "summari": "ffff",
+      "description": "dfd",
+      "client": "dfd",
+      "category": "dfd",
+      "date": "dfd"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/presupuesto.png",
+      "imgModal": "/img/porfolio/modal/presupuesto.jpg",
+      "title": "DirCom Budget",
+      "summari": "",
+      "description": "dfd",
+      "client": "dfd",
+      "category": "dfd",
+      "date": "dfd"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/gestha.png",
+      "imgModal": "/img/porfolio/modal/gestha.jpg",
+      "title": "Gestah",
+      "summari": "",
+      "description": "",
+      "client": "",
+      "category": "",
+      "date": ""
+    },
+    {
+      "img_portada": "/img/porfolio/portada/alemont.jpg",
+      "imgModal": "/img/porfolio/modal/alemont.jpg",
+      "title": "Alemont",
+      "summari": "",
+      "description": "",
+      "client": "",
+      "category": "",
+      "date": ""
+    },
+    {
+      "img_portada": "/img/porfolio/portada/q_finder.png",
+      "imgModal": "/img/porfolio/modal/q_finder.jpg",
+      "title": "Qfinder",
+      "summari": "",
+      "description": "",
+      "client": "",
+      "category": "",
+      "date": ""
+    },
+    {
+      "img_portada": "/img/porfolio/portada/gradebook.jpg",
+      "imgModal": "/img/porfolio/modal/gradebook.jpg",
+      "title": "Gradebook",
+      "summari": "",
+      "description": "",
+      "client": "",
+      "category": "",
+      "date": ""
+    },
+    {
+      "img_portada": "/img/porfolio/portada/inspirat.jpg",
+      "imgModal": "/img/porfolio/modal/inspirat.jpg",
+      "title": "InspiraT",
+      "summari": "",
+      "description": "",
+      "client": "",
+      "category": "",
+      "date": ""
+    },
+    {
+      "img_portada": "/img/porfolio/portada/am.jpg",
+      "imgModal": "/img/porfolio/modal/am.jpg",
+      "title": "Inspira",
+      "summari": "",
+      "description": "",
+      "client": "",
+      "category": "",
+      "date": ""
+    },
+    {
+      "img_portada": "/img/porfolio/portada/gmm.jpg",
+      "imgModal": "/img/porfolio/modal/gmm.jpg",
+      "title": "GMM",
+      "summari": "",
+      "description": "",
+      "client": "",
+      "category": "",
+      "date": ""
+    },
+    {
+      "img_portada": "/img/porfolio/portada/confiplus.jpg",
+      "imgModal": "/img/porfolio/modal/confiplus.jpg",
+      "title": "ConfiPlus",
+      "summari": "",
+      "description": "",
+      "client": "",
+      "category": "",
+      "date": ""
+    }
+  ]
+}

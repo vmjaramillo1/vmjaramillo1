@@ -3,6 +3,7 @@ export interface GlobalItemPorfolioProps {
   body?: string;
   img?: ImgProps;
   className?: Partial<ClassNameProps>;
+  onClick: () => void;
 }
 
 interface ImgProps {

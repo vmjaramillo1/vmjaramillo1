@@ -23,6 +23,19 @@ const {
 const initialAlternative = "400";
 
 const themeOptions: ThemeOptions = {
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 900,
+      lg: 1200,
+      xl: 1536,
+      "tw-sm": 480,
+      "tw-md": 768,
+      "tw-lg": 1280,
+      "tw-xl": 1920,
+    },
+  },
   palette: {
     background: {
       default: black,
@@ -376,5 +389,15 @@ declare module "@mui/material/styles" {
 declare module "@mui/material/Button" {
   interface ButtonPropsColorOverrides {
     complementary: true;
+  }
+}
+
+
+declare module "@mui/material/styles" {
+  interface BreakpointOverrides {
+    "tw-sm": true;
+    "tw-md": true;
+    "tw-lg": true;
+    "tw-xl": true;
   }
 }
