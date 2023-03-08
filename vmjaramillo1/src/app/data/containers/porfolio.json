@@ -4,21 +4,21 @@
       "img_portada": "/img/porfolio/portada/reportes_utpl.png",
       "imgModal": "/img/porfolio/modal/reportes_utpl.jpg",
       "title": "DirCom Report",
-      "summari": "ffff",
+      "summari": "",
       "description": "dfd",
-      "client": "dfd",
-      "category": "dfd",
-      "date": "dfd"
+      "client": "UTPL",
+      "category": "Desarrollo",
+      "date": "04-02-1993"
     },
     {
       "img_portada": "/img/porfolio/portada/presupuesto.png",
       "imgModal": "/img/porfolio/modal/presupuesto.jpg",
       "title": "DirCom Budget",
       "summari": "",
-      "description": "dfd",
-      "client": "dfd",
-      "category": "dfd",
-      "date": "dfd"
+      "description": "",
+      "client": "UTPL",
+      "category": "Desarrollo",
+      "date": "04-02-1993"
     },
     {
       "img_portada": "/img/porfolio/portada/gestha.png",
@@ -26,9 +26,9 @@
       "title": "Gestah",
       "summari": "",
       "description": "",
-      "client": "",
-      "category": "",
-      "date": ""
+      "client": "Austral S.A",
+      "category": "Desarrollo/Asesoria",
+      "date": "04-02-1993"
     },
     {
       "img_portada": "/img/porfolio/portada/alemont.jpg",
@@ -47,7 +47,7 @@
       "summari": "",
       "description": "",
       "client": "",
-      "category": "",
+      "category": "Desarrollo/Analisis",
       "date": ""
     },
     {
@@ -57,7 +57,7 @@
       "summari": "",
       "description": "",
       "client": "",
-      "category": "",
+      "category": "Desarrollo",
       "date": ""
     },
     {
@@ -66,8 +66,8 @@
       "title": "InspiraT",
       "summari": "",
       "description": "",
-      "client": "",
-      "category": "",
+      "client": "Nova Seguros",
+      "category": "Desarrollo/Analisis",
       "date": ""
     },
     {
@@ -76,8 +76,8 @@
       "title": "Inspira",
       "summari": "",
       "description": "",
-      "client": "",
-      "category": "",
+      "client": "Nova Seguros",
+      "category": "Desarrollo/Analisis",
       "date": ""
     },
     {
@@ -86,8 +86,8 @@
       "title": "GMM",
       "summari": "",
       "description": "",
-      "client": "",
-      "category": "",
+      "client": "Nova Seguros",
+      "category": "Desarrollo/Analisis",
       "date": ""
     },
     {
@@ -96,8 +96,8 @@
       "title": "ConfiPlus",
       "summari": "",
       "description": "",
-      "client": "",
-      "category": "",
+      "client": "Nova Seguros",
+      "category": "Desarrollo/Analisis",
       "date": ""
     }
   ]
