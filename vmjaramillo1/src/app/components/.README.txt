@@ -1,0 +1,2 @@
+Folder containing the base components of the project under construction.
+Add a suffix as needed
