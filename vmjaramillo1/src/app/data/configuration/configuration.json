@@ -1,0 +1,33 @@
+{
+  "validateIdentification": true,
+  "useProtectedRoutes": true,
+  "isDemo": false,
+  "security": {
+		"reactPrefixKey": "REACT_APP_",
+		"encryptionVariables":{
+			"EMAIL_ATTEMPTS_TO_TRY": "EMAIL_ATTEMPTS_TO_TRY",
+			"ENCRYPT_PUBLIC_KEY_512": "ENCRYPT_PUBLIC_KEY_512",
+			"ENCRYPT_PUBLIC_KEY_1024": "ENCRYPT_PUBLIC_KEY_1024"
+		}
+	},
+  "errorsCode": {
+    "flowErrors": [
+      {
+        "code": "ERROR_IDENTIFICATION_NOT_FOUND",
+        "text": "texto de rpueba"
+      },
+      {
+        "code": "ERROR_EXIST_INSURANCE_PERSON",
+        "text": "El número de cédula ingresado ya cuenta con un seguro"
+      }
+    ],
+    "connectionAborted": {
+      "code": "ECONNABORTED",
+      "message": "Conexión Abortada"
+    },
+    "networkError": {
+      "code": "Network Error",
+      "message": "Error de red"
+    }
+  }
+}
