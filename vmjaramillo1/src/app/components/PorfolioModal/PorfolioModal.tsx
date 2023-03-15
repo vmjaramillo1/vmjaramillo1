@@ -20,6 +20,7 @@ const CustomDialog = styled(Dialog)(() => ({
   },
 }));
 
+
 const Transition = React.forwardRef(function Transition(
   props: TransitionProps & {
     children: React.ReactElement;
