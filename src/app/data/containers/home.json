@@ -1,0 +1,60 @@
+{
+
+  "menu":{
+    "transition": 600,
+    "menuItems":[
+      {
+        "id":"1",
+        "name": "Inicio",
+        "linkTo": "hero-section"
+      },
+      {
+        "id":"2",
+        "name": "Quien Soy",
+        "linkTo": "about-section"
+      },
+      {
+        "id":"3",
+        "name": "Mis Servicios",
+        "linkTo": "what-it-section"
+      },
+      {
+        "id":"4",
+        "name": "Portafolio",
+        "linkTo": "porfolio-section"
+      },
+      {
+        "id":"5",
+        "name": "Mi Resumen",
+        "linkTo": "education-section"
+      },
+      {
+        "id":"6",
+        "name": "Contáctame",
+        "linkTo": "contact-section"
+      }
+    ]
+  },
+
+  
+  "heroSection": {
+    "productName": "Salud Integral Total",
+    "background": "/public/images/hero/imageBackgroundHero2.webp",
+    "borderBottom": true,
+    "buttonText":"Ver planes",
+    "title": [
+      {
+        "text": "Seguro médico completo y fácil de contratar."
+      }
+    ],
+    "subTitle": [
+      {
+        "text": "Hospitalización por cualquier causa al 100% y cobertura de preexistencias."
+      }
+    ]
+  }
+
+}
+
+
+

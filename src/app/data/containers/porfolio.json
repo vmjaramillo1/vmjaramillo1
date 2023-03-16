@@ -1,0 +1,105 @@
+{
+  "itemList": [
+    {
+      "img_portada": "/img/porfolio/portada/q_finder.png",
+      "imgModal": "/img/porfolio/modal/q_finder.jpg",
+      "title": "Qfinder",
+      "summari": "",
+      "description": "Proyecto piloto para desarrollar un buscador de empresas locales enfocado en promover la comercialización de productos de interés público. La plataforma busca facilitar la búsqueda y entrega de estos productos, permitiendo una mayor promoción y difusión de los mismos en la comunidad local. El proyecto cuenta con una versión web y móvil, con aplicaciones disponibles tanto en Android como en IOS. El objetivo del proyecto es fomentar el desarrollo económico local y la promoción de productos de interés público a través de una plataforma intuitiva y accesible para la comunidad",
+      "client": "Ole Sistemas",
+      "category": "Desarrollo/Analisis",
+      "date": "05-05-2019"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/reportes_utpl.png",
+      "imgModal": "/img/porfolio/modal/reportes_utpl.jpg",
+      "title": "DirCom Report",
+      "summari": "",
+      "description": "Se ha desarrollado una plataforma de gestión de leads para el departamento de DicCom de la UTPL. Esta herramienta permite coordinar y mejorar las campañas de marketing en la institución, así como hacer un seguimiento detallado del progreso en las metas de matrícula en las diversas áreas educativas y ofertas académicas. El objetivo es optimizar la gestión de leads y asegurar el cumplimiento de objetivos para mejorar el rendimiento académico en la UTPL.",
+      "client": "UTPL",
+      "category": "Desarrollo",
+      "date": "10-03-2020"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/presupuesto.png",
+      "imgModal": "/img/porfolio/modal/presupuesto.jpg",
+      "title": "DirCom Budget",
+      "summari": "",
+      "description": "Junto con el departamento de DirCom de la UTPL se desarrolló esta plataforma que permite un mejor control y seguimiento del presupuesto asignado para las diversas campañas de marketing en toda la universidad, incluyendo la sede principal y los centros universitarios en todo el país. La iniciativa tiene como objetivo mejorar la eficiencia en la gestión presupuestaria y garantizar una distribución adecuada de los recursos para maximizar los resultados de las campañas de marketing",
+      "client": "UTPL",
+      "category": "Desarrollo",
+      "date": "12-06-2021"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/gestha.png",
+      "imgModal": "/img/porfolio/modal/gestha.jpg",
+      "title": "Gestah",
+      "summari": "",
+      "description": "Iniciativa para crear una plataforma de gestión de recursos humanos especialmente diseñada para el sector público, donde las directrices para la contratación y gestión de personal suelen ser complejas y difíciles de implementar. La plataforma actualmente se encuentra en funcionamiento con varios Gobiernos Autónomos Descentralizados (GAD) del país para ofrecer una solución efectiva y eficiente en la gestión de recursos humanos. El objetivo es mejorar la eficiencia en la gestión de recursos humanos del sector público, permitiendo una mayor transparencia y eficacia en la contratación y gestión del personal.",
+      "client": "Austral S.A",
+      "category": "Desarrollo/Asesoria",
+      "date": "05-08-2021"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/alemont.jpg",
+      "imgModal": "/img/porfolio/modal/alemont.jpg",
+      "title": "Alemont",
+      "summari": "",
+      "description": "Se ha desarrollado una plataforma de gestión de operaciones y comercialización de productos para la empresa especializada Alemot. La plataforma permite gestionar de manera eficiente las distintas sucursales de la empresa, su personal asignado, ventas realizadas y el stock disponible. Además, cuenta con un módulo de reportes para realizar un seguimiento detallado de las operaciones y facilitar la toma de decisiones estratégicas. El objetivo de la plataforma es mejorar la eficiencia y productividad de Alemot, permitiendo una gestión más ágil y efectiva de sus operaciones y recursos",
+      "client": "Alemont S.A",
+      "category": "Desarrollo/Asesoria",
+      "date": "20-11-2021"
+    },
+    
+    {
+      "img_portada": "/img/porfolio/portada/gradebook.jpg",
+      "imgModal": "/img/porfolio/modal/gradebook.jpg",
+      "title": "Gradebook",
+      "summari": "",
+      "description": "Proyecto de integración académica orientado a ofrecer una forma rápida y eficiente de conciliar las calificaciones de los estudiantes de diferentes plataformas y ponerlas a disposición dentro del sistema académico institucional. El sistema cuenta con varios módulos que están habilitados según los diferentes roles de los usuarios, incluyendo administradores, personal funcional, docentes y estudiantes. El objetivo del proyecto es mejorar la eficiencia y la transparencia en la gestión académica, permitiendo una conciliación rápida y fácil de las calificaciones y ofreciendo una plataforma intuitiva y accesible para todos los usuarios",
+      "client": "",
+      "category": "Desarrollo",
+      "date": "05-12-2021"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/am.jpg",
+      "imgModal": "/img/porfolio/modal/am.jpg",
+      "title": "Inspira",
+      "summari": "",
+      "description": "Fue el primer producto digitalizado de la Compañía de Seguros “Confiamed”. Tenía como objetivo fue ofrecer un nuevo canal de venta para el seguro de asistencia médica, al mismo tiempo que se solucionaron los principales inconvenientes de los clientes durante la experiencia de compra y obtención de información del seguro. La plataforma digital permitió una experiencia de compra más fácil y accesible para los clientes, y ofreció una plataforma eficiente para la venta y gestión del seguro de asistencia médica.",
+      "client": "Nova Seguros",
+      "category": "Desarrollo/Analisis",
+      "date": "12-01-2022"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/gmm.jpg",
+      "imgModal": "/img/porfolio/modal/gmm.jpg",
+      "title": "GMM",
+      "summari": "",
+      "description": "Proyecto de transformación digital con el objetivo de mejorar la oferta de un producto ya existente, el seguro de Gastos Médicos Mayores (GMM), y comercializarlo de manera masiva a través de canales digitales. La plataforma digital simplifica el proceso de venta y mejora la experiencia del cliente, lo que ha permitido una mayor adopción y aceptación del seguro. El enfoque del negocio se ha cambiado para adaptarse al entorno digital y ofrecer una experiencia de compra más fácil y accesible. Gracias a este proyecto de transformación digital, la empresa ha logrado una mayor eficiencia y una mejor posición en el mercado de seguros de Gastos Médicos Mayores.",
+      "client": "Nova Seguros",
+      "category": "Desarrollo/Analisis",
+      "date": "15-05-2022"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/inspirat.jpg",
+      "imgModal": "/img/porfolio/modal/inspirat.jpg",
+      "title": "InspiraT",
+      "summari": "",
+      "description": "Nuevo producto diseñado para un sector de negocio más joven y con necesidades menos exigentes que los clientes tradicionales. Este producto se ha desarrollado a partir del éxito de los productos digitales anteriores y está orientado a ofrecer un seguro de asistencia médica personalizado y accesible. Con este nuevo producto, la empresa busca expandir su base de clientes y ofrecer soluciones adaptadas a una audiencia más amplia y diversa",
+      "client": "Nova Seguros",
+      "category": "Desarrollo/Analisis",
+      "date": "03-10-2022"
+    },
+    {
+      "img_portada": "/img/porfolio/portada/confiplus.jpg",
+      "imgModal": "/img/porfolio/modal/confiplus.jpg",
+      "title": "ConfiPlus",
+      "summari": "",
+      "description": "Proyecto de transformación digital con el objetivo de ofrecer una experiencia de compra en línea para la comercialización de seguros médicos modulares y personalizados. La plataforma digital ha sido diseñada para adaptarse a las necesidades y posibilidades de cada persona, ofreciendo una experiencia de compra más fácil y accesible. El flujo completamente online permite al cliente personalizar su seguro médico de acuerdo a sus necesidades específicas, lo que ha mejorado significativamente la experiencia del cliente. Gracias a este proyecto la empresa ha logrado una mayor eficiencia y una mejor posición en el mercado de seguros médicos personalizados.",
+      "client": "Nova Seguros",
+      "category": "Desarrollo/Analisis",
+      "date": "01-02-2023"
+    }
+  ]
+}
