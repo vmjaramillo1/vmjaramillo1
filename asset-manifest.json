@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.93da2104.css",
-    "main.js": "/static/js/main.ac27c056.js",
-    "static/js/787.9859aba6.chunk.js": "/static/js/787.9859aba6.chunk.js",
+    "main.js": "/static/js/main.ed8aa4bd.js",
+    "static/js/787.7efd31bd.chunk.js": "/static/js/787.7efd31bd.chunk.js",
     "static/media/Nunito-LightItalic.ttf": "/static/media/Nunito-LightItalic.ca6674927a6bf05c3bf7.ttf",
     "static/media/Nunito-MediumItalic.ttf": "/static/media/Nunito-MediumItalic.2bf63d164e8a8eeb2c19.ttf",
     "static/media/Nunito-ExtraBoldItalic.ttf": "/static/media/Nunito-ExtraBoldItalic.60044325bb062f344b79.ttf",
@@ -42,11 +42,11 @@
     "static/media/logo-eva.svg": "/static/media/logo-eva.58f41cc4dbb86e5e1159cd40cb048811.svg",
     "index.html": "/index.html",
     "main.93da2104.css.map": "/static/css/main.93da2104.css.map",
-    "main.ac27c056.js.map": "/static/js/main.ac27c056.js.map",
-    "787.9859aba6.chunk.js.map": "/static/js/787.9859aba6.chunk.js.map"
+    "main.ed8aa4bd.js.map": "/static/js/main.ed8aa4bd.js.map",
+    "787.7efd31bd.chunk.js.map": "/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93da2104.css",
-    "static/js/main.ac27c056.js"
+    "static/js/main.ed8aa4bd.js"
   ]
 }
