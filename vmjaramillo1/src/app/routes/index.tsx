@@ -5,8 +5,8 @@ import protectedRoutes from "app/data/configuration/protectedRoutes.json";
 
 import Home from "../containers/Home";
 
-// const publicUrl = process.env.PUBLIC_URL;
-const publicUrl = "vmjaramillo1";
+const publicUrl = process.env.PUBLIC_URL;
+//vconst publicUrl = "vmjaramillo1";
 
 const getRouteByCodeStep = (codeStep) => {
   const route = {
