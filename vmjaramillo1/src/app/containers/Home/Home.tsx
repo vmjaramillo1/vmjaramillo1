@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import GlobalFooter from "@global/GlobalFooter";
 import GlobalHeader from "@global/GlobalHeader";
-import logoImage from "app/assets/Header/logo.png";
+import logoImage from "app/assets/Header/logo1.svg";
 import MenuDesk from "app/components/MenuDesk";
 import MenuMobile from "app/components/MenuMobile";
 import sharedIndo from "app/data/containers/shared.json";
