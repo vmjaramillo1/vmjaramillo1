@@ -1,4 +1,3 @@
-import { lazy } from "react";
 import { Navigate } from "react-router-dom";
 import SitLayout from "@global/GlobalLayout";
 import protectedRoutes from "app/data/configuration/protectedRoutes.json";
@@ -44,7 +43,6 @@ const mainRoutes = [
     path: publicUrl,
     element: <SitLayout />,
     children: [
-
       { path: error404Route.toConfig, element: <div>error 404</div> },
       { path: error500Route.toConfig, element: <div>error 500</div> },
       { path: "*", element: <Navigate to={error404Route.toNavigate} /> },

@@ -15,7 +15,7 @@ import PorfolioSection from "./PorfolioSection";
 import WhatidoSection from "./WhatidoSection";
 
 const logo = {
-  url: "hero-section",
+  url: "#hero-section",
   src: logoImage,
   alt: "Logo de pagin",
 };

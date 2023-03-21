@@ -46,5 +46,15 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 
+## Publis in web
+
+Para publicar en web ejecutar
+### `npm run deploy`
+
+Tambien se puede especificar u commint con el ensaje de publicacion
+
+### `npm run deploy -- -m "Deploy React app to GitHub Pages"`
 
 ## Referencias
+
+[Publicar git hub page](https://github.com/gitname/react-gh-pages)

@@ -21,7 +21,7 @@ const WhatidoSection = () => {
       icon: <HandymanIcon className="h-xl w-xl pr-m text-primary-500" />,
       title: "Desarrollo",
       description:
-        "Desarrollo de software personalizado para satisfacer las necesidades específicas de cualquier cliente, siempre manetiendo el enfoque en brindar soluciones eficientes y de alta calidad.",
+        "Desarrollo de software personalizado para satisfacer las necesidades específicas de cualquier cliente, siempre manteniendo el enfoque en brindar soluciones eficientes y de alta calidad.",
     },
     {
       id: 3,

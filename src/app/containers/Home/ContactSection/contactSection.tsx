@@ -9,7 +9,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import AOS from "aos";
-import background from "app/assets/whatIDo/2.jpg";
+import background from "app/assets/contact/5.jpg";
 import * as yup from "yup";
 
 AOS.init();
