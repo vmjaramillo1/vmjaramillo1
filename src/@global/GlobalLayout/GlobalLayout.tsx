@@ -4,7 +4,7 @@ import GlobalFooter from "@global/GlobalFooter";
 import GlobalHeader from "@global/GlobalHeader";
 import GlobalLoadingDialog from "@global/GlobalLoadingDialog";
 import EvaLogo from "app/assets/Footer/logo-eva.svg";
-import BpLogo from "app/assets/Header/logoHeader.svg";
+import BpLogo from "app/assets/Header/logo1.svg";
 import sponsorData from "app/data/configuration/brand/sponsorData.json";
 import { homeRoute } from "app/routes";
 
