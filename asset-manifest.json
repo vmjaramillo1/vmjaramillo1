@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ee742754.css",
-    "main.js": "/static/js/main.de4eae37.js",
+    "main.js": "/static/js/main.43963c29.js",
     "static/js/27.f9969c35.chunk.js": "/static/js/27.f9969c35.chunk.js",
     "static/media/1.jpg": "/static/media/1.35e019dc748116b055a9.jpg",
     "static/media/Nunito-LightItalic.ttf": "/static/media/Nunito-LightItalic.ca6674927a6bf05c3bf7.ttf",
@@ -38,13 +38,12 @@
     "static/media/Saira-Black.ttf": "/static/media/Saira-Black.abeee90fd4f0d6c96fe6.ttf",
     "static/media/ElegantIcons.woff": "/static/media/ElegantIcons.941bf29b415d3a9b7099.woff",
     "static/media/5.jpg": "/static/media/5.20b4e28a0633f4b53b72.jpg",
-    "static/media/logo1.svg": "/static/media/logo1.f99d25b2bbeddce2133e9af0e9c40296.svg",
-    "static/media/logoHeader.svg": "/static/media/logoHeader.004ba7d2d34f87e3c1592c4ff398a2ec.svg",
+    "static/media/logo1.svg": "/static/media/logo1.2cef5f629854a839bfd1931094709710.svg",
     "static/media/logo-eva.svg": "/static/media/logo-eva.58f41cc4dbb86e5e1159cd40cb048811.svg",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.ee742754.css",
-    "static/js/main.de4eae37.js"
+    "static/js/main.43963c29.js"
   ]
 }
