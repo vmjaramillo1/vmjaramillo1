@@ -46,8 +46,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 ## Publis in web
 
-## HOLa
-
 Para publicar en web ejecutar
 ### `npm run deploy`
 
@@ -58,3 +56,6 @@ Tambien se puede especificar u commint con el ensaje de publicacion
 ## Referencias
 
 [Publicar git hub page](https://github.com/gitname/react-gh-pages)
+
+[configurr DNS custom](https://gist.github.com/plembo/84f80c920bb5ac6f19e53fe6f8db1ff7)
+[configurr DNS custom 2 ](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/)
