@@ -68,13 +68,13 @@ const aboutSection = () => {
                   variant="body1"
                   className="leading-[1.8rem] text-neutral-alternative1-300"
                 >
-                  Soy un Ing. en Sistemas de la ciudad de Loja, fuertemente
+                  Soy un Ingeniero en Sistemas de la ciudad de Loja, fuertemente
                   enfocado en el diseño y desarrollo de soluciones tecnológicas
                   disruptivas, que aprovechen al máximo las oportunidades
                   existentes y las nuevas tecnologías, en especial aquellas
-                  relacionadas con el campo de IA y el análisis de datos. Me
-                  apasionan los nuevos retos y siempre estoy en la búsqueda de
-                  nuevas oportunidades.
+                  relacionadas con el campo de inteligencia artificial (IA) y el
+                  análisis de datos. Me apasionan los nuevos retos y siempre
+                  estoy en la búsqueda de nuevas oportunidades.
                 </GlobalTypography>
               </div>
             </div>

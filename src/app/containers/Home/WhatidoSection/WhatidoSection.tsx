@@ -12,9 +12,9 @@ const WhatidoSection = () => {
     {
       id: 1,
       icon: <PsychologyIcon className="h-xl w-xl pr-m text-primary-500" />,
-      title: "Analisis",
+      title: "Análisis",
       description:
-        "Servicios de análisis de procesos para ayudar a las empresas a mejorar la eficiencia y la efectividad de sus operaciones, evaluando y analizando procesos existentes para identificar áreas de mejora y optimización mediante el uso de nuevas tecnologias.",
+        "Servicios de análisis de procesos para ayudar a las empresas a mejorar la eficiencia y la efectividad de sus operaciones, evaluando y analizando procesos existentes para identificar áreas de mejora y optimización mediante el uso de nuevas tecnologías.",
     },
     {
       id: 2,

@@ -41,7 +41,7 @@ const educationItems = [
     index: 2,
     dateTitle: "2010 - 2016",
     title: "Ing. en Sistemas Informáticos",
-    subtitle: "José Antonio Eguiguren “La Salle”",
+    subtitle: "Universidad Técnica Particular de Loja",
     body: "Ingenieria orientada al estudio de sistemas informaticos y computacion, enfoada en la adquisiedon de conocimientos y capacidades técnicas para diseñar e implementar soluciones computacionales que integren métodos de software y tecnologías de vanguardia.",
   },
   {
