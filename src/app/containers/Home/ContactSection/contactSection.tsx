@@ -257,6 +257,7 @@ const contactSection = () => {
                         data-aos-delay="300"
                         data-aos-duration="1000"
                         data-aos-easing="ease"
+                        className="md:w-[250px]"
                       >
                         <GlobalTypography
                           variant="body1"
@@ -274,6 +275,8 @@ const contactSection = () => {
                         data-aos-delay="400"
                         data-aos-duration="1000"
                         data-aos-easing="ease"
+                        className="md:w-[250px]"
+
                       >
                         <GlobalTypography
                           variant="body1"
@@ -291,6 +294,7 @@ const contactSection = () => {
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         data-aos-easing="ease"
+                        className="md:w-[250px]"
                       >
                         <GlobalTypography
                           variant="body1"

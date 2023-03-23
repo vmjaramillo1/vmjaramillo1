@@ -35,7 +35,7 @@ const educationItems = [
     dateTitle: "2020 - 2022",
     title: "Master en Inteligencia Artificial",
     subtitle: "Universidad Internacional de La Rioja ",
-    body: "Maestria orientada a la adquisicion deconocimientos teóricos y prácticos que permitan implementar soluciones basadas en inteligencia artificial somo son: agentes inteligentes, procesamiento de lenguaje natural, modelos de machine learning, redes neuronales entre otros.",
+    body: "Maestría orientada a la adquisición de conocimientos teóricos y prácticos que permitan implementar soluciones basadas en inteligencia artificial como son: agentes inteligentes, procesamiento de lenguaje natural, modelos de machine learning, redes neuronales, entre otros.",
   },
   {
     index: 2,
@@ -49,7 +49,7 @@ const educationItems = [
     dateTitle: "2008 - 2010",
     title: "Bachiller en Ciencias",
     subtitle: "José Antonio Eguiguren “La Salle”",
-    body: "Bachillerato orientado a la adquisiendo de conocimiento las áreas de Matemática, Lengua y Literatura, Ciencias Naturales, Ciencias Sociales, Educación Cultural y Artística, Educación Física, Lengua extrajera y un módulos interdisciplinarios optativos.",
+    body: "Bachillerato orientado a la adquisiendo de conocimiento en las áreas de Matemática, Lengua y Literatura, Ciencias Naturales, Ciencias Sociales, Educación Cultural y Artística, Educación Física, Lengua extrajera y módulos interdisciplinarios optativos.",
   },
 ];
 
