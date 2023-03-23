@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ee742754.css",
-    "main.js": "/static/js/main.43963c29.js",
+    "main.js": "/static/js/main.c652a9e2.js",
     "static/js/27.f9969c35.chunk.js": "/static/js/27.f9969c35.chunk.js",
     "static/media/1.jpg": "/static/media/1.35e019dc748116b055a9.jpg",
     "static/media/Nunito-LightItalic.ttf": "/static/media/Nunito-LightItalic.ca6674927a6bf05c3bf7.ttf",
@@ -44,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.ee742754.css",
-    "static/js/main.43963c29.js"
+    "static/js/main.c652a9e2.js"
   ]
 }
