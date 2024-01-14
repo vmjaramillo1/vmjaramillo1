@@ -61,7 +61,6 @@ const contactSection = () => {
   });
 
   const sendEmail = (data) => {
-    console.log("aqddd", data, form);
     emailjs
       .sendForm(
         "service_hav14db",
@@ -103,7 +102,6 @@ const contactSection = () => {
   };
 
   const onSubmit = (data) => {
-    console.log(data);
     sendEmail(data);
   };
 
